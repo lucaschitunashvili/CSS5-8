@@ -1,0 +1,440 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Inter;
+    background: #141414;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .all p {
+    color: #000;
+    font-weight: 500;
+}
+
+a .all-second p {
+    color: #FFF;
+    font-weight: 500;
+}
+
+.full-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 224px;
+    width: 100%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #222224;
+}
+
+.nav-list {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #434343;
+}
+
+.nav-list p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #989898;
+    padding-bottom: 16px;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 192px;
+    width: 100%;
+}
+
+.members {
+    display: flex;
+    padding: 8px 16px;
+    background: #FAE101;
+    border-radius: 12px;
+}
+
+.members a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    font-weight: 500;
+}
+
+.teams {
+    display: flex;
+    padding: 8px 16px;
+}
+
+.teams a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+}
+
+.main-content {
+    max-width: 1216px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 10px;
+    padding-bottom: 32px;
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    justify-content: end;
+    border-bottom: 1px solid #434343;
+}
+
+
+.search {
+    max-width: 834px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-line {
+    display: flex;
+    align-items: center;
+    max-width: 436px;
+    width: 100%;
+}
+
+.text-field {
+    padding: 8px 10px;
+    max-width: 436px;
+    width: 100%;
+    height: 40px;
+    background: #141414;
+    border-radius: 8px 0px 0px 8px;
+    border-top: 1px solid #FAE101;
+    border-bottom: 1px solid #FAE101;
+    border-left: 1px solid #FAE101;
+    border-right: none;
+    color: #FAE101;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-field::placeholder {
+    color: #FAE101;
+    border: none;
+}
+
+.yellow {
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 0px 8px 8px 0px;
+    background: #FAE101;
+}
+
+.devon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.devon p {
+    color: #FFF;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.main-container {
+    max-width: 1088px;
+    width: 100%;
+    display: flex;
+    padding-top: 19px;
+    padding-left: 40px;
+    padding-bottom: 19px;
+    background: #222224;
+    border-radius: 8px;
+}
+
+.grinch-container {
+    max-width: 880px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gift {
+    max-width: 336px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.gift h2 {
+    color: #FAE101;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.gift h3 {
+    max-width: 247px;
+    width: 100%;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.gift p {
+    max-width: 314px;
+    width: 100%;
+    color: #B7B7B7;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.gift p span {
+    font-weight: 600;
+}
+
+.container-second {
+    max-width: 1088px;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.all {
+    padding: 8px 16px 8px 12px;
+    display: flex;
+    gap: 12px;
+    border-radius: 24px;
+    background: #FAE101;
+    align-items: center;
+}
+
+.all-second {
+    padding: 8px 16px 8px 12px;
+    display: flex;
+    gap: 12px;
+    border-radius: 24px;
+    align-items: center;
+    background: #222224;
+}
+
+.all-second p {
+    color: #FFF;
+    font-weight: 500;
+}
+
+.container-third {
+    max-width: 1088px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.flash h4 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sale {
+    display: flex;
+    align-items: center;
+}
+
+.sale h6 {
+    color: #FAE101;
+    font-weight: 600;
+    padding-right: 16px;
+    font-size: 16px;
+}
+
+.ending {
+    color: #797979;
+    font-weight: 600;
+    padding-right: 12px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.number {
+    padding: 10px;
+    border-radius: 4px;
+    background: #FAE101;
+}
+
+.number p {
+    color: #000;
+    font-weight: 600;
+}
+
+.dot {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.dot-width {
+    width: 4px;
+    height: 4px;
+    background: #D9D9D9;
+    border-radius: 50px;
+}
+
+.stole-container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.stole {
+    display: flex;
+    padding: 16px;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    background: #222224;
+    max-width: 352px;
+    width: 100%;
+}
+
+.got {
+    display: flex;
+    flex-direction: column;
+    max-width: 154px;
+    width: 100%;
+    gap: 36px;
+}
+
+.steal {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.steal h5 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.star {
+    display: flex;
+    gap: 2px;
+}
+
+.price {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.yelow {
+    color: #FAE101;
+    font-weight: 400;
+}
+
+.grey {
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cart input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background: #FAE101;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.spider {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    max-width: 254px;
+    width: 100%;
+}
+
+.grinch-box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: 222px;
+    width: 100%;
+}
+
+.grinch-box h5 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.grinch-box p {
+    min-height: 72px;
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.theme {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
